@@ -1,5 +1,6 @@
 /** @format */
 
+
 class AppQuizziamoci {
   showLeaderboard() {}
 
