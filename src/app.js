@@ -1,7 +1,7 @@
 /** @format */
 
 
-class AppQuizziamoci {
+class App{
   showLeaderboard() {}
 
   showLocalLeaderboard() {}
