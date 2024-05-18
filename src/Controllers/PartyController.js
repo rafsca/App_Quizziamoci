@@ -4,6 +4,7 @@ class PartyController {
   party = [];
 
   createParty() {}
+  
 
   showPartyList() {}
 

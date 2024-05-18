@@ -3,6 +3,7 @@
 class MatchController {
   match = [];
 
+  
   createPrivateMatch() {}
 
   joinPrivateMatch() {}
