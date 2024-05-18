@@ -5,4 +5,5 @@ class ModelMatch {
     this.id = null;
     this.argomento = null;
   }
+  
 }

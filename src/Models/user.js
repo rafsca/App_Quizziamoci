@@ -7,4 +7,5 @@ class ModelUser {
     this.username = null;
     this.id = null;
   }
+  
 }

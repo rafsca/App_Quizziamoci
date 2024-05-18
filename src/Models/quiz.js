@@ -10,4 +10,5 @@ class ModelQuiz {
     this.rispostaD = null;
     this.corretta = null;
   }
+  
 }
