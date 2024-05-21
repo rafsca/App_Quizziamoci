@@ -1,8 +1,7 @@
 /** @format */
 
-class ControllerQuiz {
+class QuizController {
   quiz = [];
-
 
   showQuiz() {}
 }
