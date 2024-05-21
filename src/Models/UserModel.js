@@ -1,6 +1,6 @@
 /** @format */
 
-class ModelUser {
+class UserModel {
   constructor() {
     this.email = null;
     this.password = null;

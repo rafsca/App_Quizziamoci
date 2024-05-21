@@ -1,6 +1,6 @@
 /** @format */
 
-class ModelQuiz {
+class QuizModel {
   constructor() {
     this.id = null;
     this.domanda = null;

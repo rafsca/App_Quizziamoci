@@ -1,9 +1,9 @@
 /** @format */
 
-class ModelMatch {
+class ArgoumentModel {
   constructor() {
     this.id = null;
-    this.argomento = null;
+    this.nome = null;
   }
   
 }
