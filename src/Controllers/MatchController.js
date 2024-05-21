@@ -1,9 +1,8 @@
 /** @format */
 
-class ControllerMatch {
+class MatchController {
   match = [];
 
-  
   createPrivateMatch() {}
 
   joinPrivateMatch() {}
