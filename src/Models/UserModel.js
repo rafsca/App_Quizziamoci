@@ -1,11 +1,14 @@
 /** @format */
 
 class UserModel {
-  constructor() {
-    this.email = null;
-    this.password = null;
-    this.username = null;
-    this.id = null;
+  constructor(email, password,username) {
+    this.email = email;
+    this.password = password;
+    this.username = username;
+    // this.id = null;
   }
   
 }
+
+
+module.exports = UserModel

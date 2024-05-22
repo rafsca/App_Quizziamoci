@@ -7,3 +7,6 @@ class ArgoumentModel {
   }
   
 }
+
+
+module.exports = ArgoumentModel

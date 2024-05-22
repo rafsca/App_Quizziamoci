@@ -7,3 +7,5 @@ class MatchModel {
   }
   
 }
+
+module.exports = MatchModel
