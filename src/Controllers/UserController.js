@@ -2,23 +2,14 @@
 const UserModel = require('../Models/UserModel.js')
 
 class UserController {
-  UserModel = new UserModel()
 
-  user = [];
+  #user = []
 
-  login() {}
-
-  register() {
+  register(email, password, username) {
+    const user = new UserModel(email, password, username);
+    this.#user.push(user);
+    return { email: user.email, password: user.password, username: user.username };
   }
-  
-
-  deleteProfile(email) {
-    
-  }
-
-  changePassword() {}
-
-  changeUsername() {}
-
-  logout() {}
 }
+
+module.exports = UserController
