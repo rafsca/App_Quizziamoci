@@ -1,6 +1,6 @@
 /** @format */
 
-class ControllerMatch {
+class MatchController {
   match = [];
 
   

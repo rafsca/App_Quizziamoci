@@ -1,6 +1,6 @@
 /** @format */
 
-class ControllerParty {
+class PartyController {
   party = [];
 
   createParty() {}

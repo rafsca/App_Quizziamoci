@@ -1,6 +1,6 @@
 /** @format */
 
-class ControllerArgoment {
+class ArgomentController {
   argoment = [];
 
   

@@ -1,6 +1,6 @@
 /** @format */
 
-class ControllerUser {
+class UserController {
   user = [];
 
   login() {}
