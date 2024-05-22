@@ -1,7 +1,6 @@
 /** @format */
 
-
-class App{
+class App {
   showLeaderboard() {}
 
   showLocalLeaderboard() {}
@@ -12,3 +11,5 @@ class App{
 
   showMatchHistory() {}
 }
+
+module.exports = App;
