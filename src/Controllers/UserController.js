@@ -1,14 +1,20 @@
 /** @format */
+const UserModel = require('../Models/UserModel.js')
 
 class UserController {
+  UserModel = new UserModel()
+
   user = [];
 
   login() {}
 
-  register() {}
+  register() {
+  }
   
 
-  deleteProfile() {}
+  deleteProfile(email) {
+    
+  }
 
   changePassword() {}
 

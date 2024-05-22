@@ -12,3 +12,5 @@ class QuizModel {
   }
   
 }
+
+module.exports = QuizModel
