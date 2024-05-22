@@ -1,16 +1,12 @@
 /** @format */
 
 class QuizModel {
-  constructor() {
-    this.id = null;
-    this.domanda = null;
-    this.rispostaA = null;
-    this.rispostaB = null;
-    this.rispostaC = null;
-    this.rispostaD = null;
-    this.corretta = null;
+  constructor(domanda, rispostaA, rispostaB, rispostaC, rispostaD) {
+    this.id = 1;
+    this.domanda = domanda;
+    this.risposte = [rispostaA, rispostaB, rispostaC, rispostaD];
+    this.corretta = this.risposte[0];
   }
-  
 }
 
-module.exports = QuizModel
+module.exports = QuizModel;

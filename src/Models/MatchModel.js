@@ -2,10 +2,14 @@
 
 class MatchModel {
   constructor() {
-    this.id = null;
-    this.argomento = null;
+    this.idMatch = null;
+    this.idArgomento = null;
+    this.Participants = [];
+    this.winner = null;
+    this.score = null;
+    this.data = null;
+    this.time = null;
   }
-  
 }
 
-module.exports = MatchModel
+module.exports = MatchModel;
